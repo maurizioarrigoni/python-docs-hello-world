@@ -1,3 +1,36 @@
 {
-    "python.pythonPath": "c:\\Users\\AzureUser\\Documents\\GitHub\\test_app_services\\.venv\\Scripts\\python.exe"
+    "python.pythonPath": "c:\\Users\\AzureUser\\Documents\\GitHub\\test_app_services\\.venv\\Scripts\\python.exe",
+    "appService.zipIgnorePattern": [
+        "__pycache__{,/**}",
+        "*.py[cod]",
+        "*$py.class",
+        ".Python{,/**}",
+        "build{,/**}",
+        "develop-eggs{,/**}",
+        "dist{,/**}",
+        "downloads{,/**}",
+        "eggs{,/**}",
+        ".eggs{,/**}",
+        "lib{,/**}",
+        "lib64{,/**}",
+        "parts{,/**}",
+        "sdist{,/**}",
+        "var{,/**}",
+        "wheels{,/**}",
+        "share/python-wheels{,/**}",
+        "*.egg-info{,/**}",
+        ".installed.cfg",
+        "*.egg",
+        "MANIFEST",
+        ".env{,/**}",
+        ".venv{,/**}",
+        "env{,/**}",
+        "venv{,/**}",
+        "ENV{,/**}",
+        "env.bak{,/**}",
+        "venv.bak{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/fe57d516-0ebe-4709-91ec-5667edfbd918/resourceGroups/rg-wwe-ictt-test_app_services/providers/Microsoft.Web/sites/testappservices000",
+    "appService.deploySubpath": "."
 }
